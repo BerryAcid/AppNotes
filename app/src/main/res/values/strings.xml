@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Notas</string>
+    <string name="title_activity_notas">MainActivity</string>
+    <string name="title_home">Notas</string>
+    <string name="title_dashboard">Favoritas</string>
+    <string name="title_notifications">Mi perfil</string>
+    <string name="pass">Pass</string>
+    <string name="entrar">Entrar</string>
+    <string name="mynotes">MyNotes</string>
+    <string name="e_mail">E-mail</string>
+    <string name="todo">TODO</string>
+    <string name="textRojo">Rojo</string>
+    <string name="textVerde">Verde</string>
+    <string name="textAzul">Azul</string>
+    <string name="colonota">Selecione el color de la nota.</string>
+    <string name="notafav">La nota es favorita?</string>
+    <string name="action_add_nota">Nueva nota</string>
+</resources>
