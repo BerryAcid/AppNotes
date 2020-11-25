@@ -1,7 +1,6 @@
-package com.BerryAcid.notas;
+package com.BerryAcid.notas.ui;
 
 import androidx.fragment.app.DialogFragment;
-import androidx.lifecycle.ViewModelProvider;
 
 
 import android.annotation.SuppressLint;
@@ -10,20 +9,17 @@ import android.app.Dialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
 
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.EditText;
-import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Switch;
 
+import com.BerryAcid.notas.R;
 import com.BerryAcid.notas.db.entity.NotaEntity;
+import com.BerryAcid.notas.viewmodel.NuevaNotaDialogViewModel;
 
 public class NuevaNotaDialogFragment extends DialogFragment {
 

@@ -1,4 +1,4 @@
-package com.BerryAcid.notas;
+package com.BerryAcid.notas.viewmodel;
 
 import android.app.Application;
 
@@ -6,6 +6,7 @@ import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 
+import com.BerryAcid.notas.NotaRepository;
 import com.BerryAcid.notas.db.entity.NotaEntity;
 
 import java.util.List;

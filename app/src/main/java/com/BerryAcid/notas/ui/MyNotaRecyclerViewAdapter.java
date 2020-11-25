@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.BerryAcid.notas.NuevaNotaDialogViewModel;
+import com.BerryAcid.notas.viewmodel.NuevaNotaDialogViewModel;
 import com.BerryAcid.notas.db.entity.NotaEntity;
 import com.BerryAcid.notas.R;
 
